@@ -1,0 +1,72 @@
+#title{
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+  text-transform: uppercase;
+  color: #4CAF50;
+  font-size: 55px;
+  background: black;
+}
+
+#body {
+  background-image: url("https://images1.miaminewtimes.com/imager/u/745xauto/11177606/alligator_pool_float.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+p {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+p:hover{
+  font-size: 32px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  transition-duration: 0.5s;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'El Messiri', sans-serif;
+}
+
+button:hover {
+  background-color: #060761;
+  padding: 20px 37px;
+}
+
+#pic{
+  width: 600px;
+  height: 650px;
+  border-radius: 5px;
+  border: 5px solid white
+}
+
+#name {
+  background: green;
+  text-align: center;
+}
+
+#quote {
+  background: black;
+  text-align: center;
+}
+
+#superlative {
+  background: #060761;
+  text-align: center;
+}
